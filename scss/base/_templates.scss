@@ -1,14 +1,5 @@
-btn-yellow
-btn-black
-
-h1
-h2
-h3 
-h4
-
-text-green
-text-black-bold
-text-main-gray
+// btn-yellow
+// btn-black
 
 *, *::after, *::before {
   margin: 0;
@@ -23,17 +14,15 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
-  font-size: 14px;
-  color: $text-white;
+  // font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  // font-size: 14px;
+  color: $text-black;
   background-color: $background-main-color;
 
-  margin: 0;
-  width: 100vw;
-  min-height: 100vh;
-  overflow: hidden;
+  // margin: 0;
+  // width: 100vw;
+  // min-height: 100vh;
+  // overflow: hidden;
 }
 
 .text-12 {
@@ -58,80 +47,96 @@ body {
 .text-grey {
   color: #999999;
 }
-.text-turquoise {
-  color: #0FEDBE;
-}
-.text-pink {
-  color: #F63C6B;
-}
-.text-purple {
-  color: #F044FF;
-}
-.text-orange {
-  color: #FFAA2B;
-}
 
 .text-semibold {
   font-weight: bold;
 }
 
+.title-h1 {
+  font-size: 57px;
+  color: $text-black;
+  font-family: $font-titles;
+  font-weight: bold;
+}
+.title-h2 {
+  font-size: 40px;
+  color: $text-black-faded;
+  font-family: $font-titles;
+  // font-weight: 100;
+}
+
+.text-main-grey {
+  font-size: 15px;
+  color: $text-grey-light;
+  font-family: $font-text;
+}
+
+.text-green {
+  font-size: 42px;
+  color: $text-green;
+  font-family: $font-titles;
+  font-weight: bold;
+}
+
+
+
 ul {
   list-style-type: none;
 }
 
-a {
-  font-style: inherit;
-  color: $text-grey;
-  text-decoration: none;
-  cursor: pointer;
-}
+// a {
+//   font-style: inherit;
+//   color: $text-grey;
+//   text-decoration: none;
+//   cursor: pointer;
+// }
 
-.button {
-  width: 175px;
-  height: 50px;
-  color: $text-grey;
-  background-color: $background-main-color;
-  border: none;
-  border-bottom: 1px solid $text-white;
-  cursor: pointer;
-}
+// .button {
+//   width: 175px;
+//   height: 50px;
+//   color: $text-grey;
+//   background-color: $background-main-color;
+//   border: none;
+//   border-bottom: 1px solid $text-white;
+//   cursor: pointer;
+// }
 
 
-.button:focus {
-  color: $text-turquoise;
-  background: linear-gradient(180deg,rgba(15, 237, 190, 0) 0%, rgba(15, 237, 190, 0.25) 100%);
-  border-bottom: 1px solid $text-turquoise;
-}
+// .button:focus {
+//   color: $text-turquoise;
+//   background: linear-gradient(180deg,rgba(15, 237, 190, 0) 0%, rgba(15, 237, 190, 0.25) 100%);
+//   border-bottom: 1px solid $text-turquoise;
+// }
 
-.button_turquoise {
-  width: 302px;
-  max-width: 302px;
-  align-self: center;
-  height: 40px;
-  color: $background-nav-color;
-  font-weight: bold;
-  background-color: $text-turquoise;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
+// .button_turquoise {
+//   width: 302px;
+//   max-width: 302px;
+//   align-self: center;
+//   height: 40px;
+//   color: $background-nav-color;
+//   font-weight: bold;
+//   background-color: $text-turquoise;
+//   border: none;
+//   border-radius: 6px;
+//   cursor: pointer;
+// }
 
-label {
-  margin-top: 10px;
-}
+// label {
+//   margin-top: 10px;
+// }
 
-.input {
-  font-family: inherit;
-  color: $text-white;
-  background-color: $background-inputs;
-  border: none;
-  border-radius: 6px;
-  outline: none;
-  padding: 11px;
-  margin: 3px 0 3px 0;
-  max-width: 302px;
+// .input {
+//   font-family: inherit;
+//   color: $text-white;
+//   background-color: $background-inputs;
+//   border: none;
+//   border-radius: 6px;
+//   outline: none;
+//   padding: 11px;
+//   margin: 3px 0 3px 0;
+//   max-width: 302px;
 
-  @media screen and (max-width: $desktop-size) {
-    max-width: 150px;
-  }
-}
+//   @media screen and (max-width: $desktop-size) {
+//     max-width: 150px;
+//   }
+// }
